@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-color: #084333;
+    color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header a{
+    color: #eee;
+  }
+  .h1Header{
+    font-size: clamp(40px, 2vw, 120px);
+    width: 100vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+  }
+  .header nav{
+    width: 100vw;
+  }
+  .header ul{
+    font-size: clamp(15px, 1.5vw, 45px);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .header ul li {
+    padding: 1%;
+  }
+  .banner{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(img/gramado.jpg);
+    background-position: 50%;
+    background-size: cover;
+  }
+  .bannerClima{
+    width: 100%;
+    height: 40vh;
+    background-image: url(img/climaa.jpg);
+    background-position: 50% 20%;
+    background-size: cover;
+  }
+  .banner1{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(img/aeroo.jpg);
+    background-position: 50% 70%;
+    background-size: cover;
+  }
+  p{
+    width: 80vw;
+    margin: auto;
+    padding: 2%;
+    font-size: clamp(20px, 2vw, 60px);
+  }
+  .como{
+    width: 100vw;
+    text-align: center;
+    font-size: 3vw;
+    padding: 2%;
+  }
+  .summer{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 3vw;
+    text-align: left;
+  }
+  .pSummer{
+    width: 50vw;
+    text-align: left;
+    padding-left: 10%;
+    margin: 0;
+  }
+  .primavera{
+    padding-right: 5%;
+    padding-top: 5%;
+    font-size: 3vw;
+    text-align: end;
+  }
+  .pPrimavera{
+    width: 50vw;
+    text-align: right;
+    padding-right: 10%;
+    margin-right: 0;
+  }
+  .winter{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 3vw;
+    text-align: left;
+  }
+  .pWinter{
+    width: 50vw;
+    text-align: left;
+    padding-left: 10%;
+    margin: 0;
+  }
+  .outono{
+    padding-right: 5%;
+    padding-top: 5%;
+    font-size: 3vw;
+    text-align: end;
+  }
+  .pOutono{
+    width: 50vw;
+    text-align: right;
+    padding-right: 10%;
+    margin-right: 0;
+  }
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  width: 70vw;
+  border: 1px solid #222;
+  margin: auto;
+}
+
+h3{
+  margin: auto;
+  text-align: center;
+  padding: 2.5%;
+  font-size: clamp(30px, 3vw, 90px);
+}
+.ruaCoberta{
+  width: clamp(360px, 50vw, 720px);
+  height: 50vh;
+  margin: auto;
+  background-image: url(img/rua.jpg);
+  background-size: cover;
+}
+.lagoNegro{
+  width: clamp(360px, 50vw, 720px);
+  height: 50vh;
+  margin: auto;
+  background-image: url(img/lago.jpeg);
+  background-size: cover;
+}
+.ruaTorta{
+  width: clamp(360px, 50vw, 720px);
+  height: 50vh;
+  margin: auto;
+  background-image: url(img/ruatorta.jpg);
+  background-size: cover;
+}
+.snowland{
+  width: clamp(360px, 50vw, 720px);
+  height: 50vh;
+  margin: auto;
+  background-image: url(img/snowland.jpg);
+  background-size: cover;
+}
+
+.pontoTuristico{
+  padding: 5%;
+}
+
+#descricao{
+  padding: 10%;
+  font-style: italic;
+  font-weight: 600;
+}
+
+fieldset{
+  margin: auto;
+  text-align: center;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  font-size: clamp(20px, 2vw, 60px);
+}
+
+form {
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+form div{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+form div .inpute{
+  height: 20vh;
+}
+
+.butao{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
